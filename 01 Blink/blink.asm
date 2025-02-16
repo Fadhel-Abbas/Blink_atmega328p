@@ -3,9 +3,9 @@
 ; turns on an LED which is connected to PB5 (digital out 13)
 
 .include "./m328Pdef.inc"
-rjmp Start
+rjmp Main
 
-Start:
+Main:
 	call On
 
 	; set delay to max possible in 16 bit number
@@ -15,7 +15,7 @@ Start:
 	call Delay
 
 	call Off
-	rjmp Start
+	rjmp Main
 
 Delay:
 	sbci zl, 0x01

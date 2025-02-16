@@ -1,5 +1,6 @@
-;blink.s
-;turns on an LED which is connected to PB5 (digital out 13)
+; blink.asm
+; by Fadhel Abbas
+; turns on an LED which is connected to PB5 (digital out 13)
 
 .include "./m328Pdef.inc"
 rjmp Start

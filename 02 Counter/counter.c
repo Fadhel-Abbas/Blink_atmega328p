@@ -1,3 +1,8 @@
+// Counter.c
+// by Fadhel
+// increments 7 Segement display when one button
+// is pressed, and decrements it when another is pressed.
+
 #include <avr/io.h>
 #include <util/delay.h>
 
